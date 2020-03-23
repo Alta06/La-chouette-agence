@@ -13,8 +13,13 @@ button {
     outline: none!important;
 }
 
+#bloc-0 a:hover {
+    text-decoration: underline;
+}
+
 a:hover {
     cursor: pointer;
+    text-decoration-line: underline;
 }
 
 #page-loading-blocs-notifaction {
