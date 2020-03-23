@@ -13,7 +13,7 @@ button {
     outline: none!important;
 }
 
-#bloc-0 a:hover {
+#bloc- a:hover {
     text-decoration: underline;
 }
 
@@ -793,6 +793,11 @@ h4 {
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
+    color: #FFFFFF!important;
+}
+
+.btn-grey:hover {
+    background: #303030!important;
     color: #FFFFFF!important;
 }
 
