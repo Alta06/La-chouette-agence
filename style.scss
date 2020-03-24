@@ -797,13 +797,14 @@ h4 {
 }
 
 .btn-atomic-tangerine {
+    display: inline-block;
     background: #fff;
     color: #303030 !important;
+    box-shadow: inset 0 0 0 0 #31302B;
+    transition: ease-in-out 1s;
 
     &:hover {
-        background: #303030 !important;
-        transition: ease-in-out 340ms;
-        transform: scale(1.2);
+        box-shadow: inset 0px 0px 0px 133px #31302B;
         color: #FFF !important;
     }
 }
