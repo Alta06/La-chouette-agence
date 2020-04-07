@@ -602,8 +602,9 @@ address {
     padding-right: 10px !important
   }
 
-  .b-parallax {
-    background-attachment: scroll
+  h2 {
+    font-size: 22px;
+    line-height: 1.4em
   }
 
   .navbar .nav {
@@ -656,7 +657,7 @@ address {
   .navbar-collapse {
     padding: 0;
     box-shadow: none;
-    overflow:hidden;
+    overflow: hidden;
   }
 
   .navbar-brand img {
@@ -709,9 +710,21 @@ address {
   }
 }
 
-@media (max-width:400px) {
+@media (max-width:425px) {
   .bloc {
     padding-left: 0;
     padding-right: 0
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  #bloc-2-services p:first-child {
+    font-size: 20px;
+  }
+
+  .icon-lg {
+    font-size: 50px !important;
   }
 }
