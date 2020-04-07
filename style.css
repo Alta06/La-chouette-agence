@@ -34,6 +34,10 @@ a:hover {
   padding: 80px 50px;
 }
 
+header img {
+  width: 10%;
+}
+
 .bloc-md {
   padding: 50px;
 }
@@ -220,6 +224,57 @@ a:hover {
   width: 26px;
 }
 
+.spinner {
+  width: 70px;
+  margin: auto;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+          animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+          animation-delay: -0.16s;
+}
+
+.spinner div {
+  width: 15px;
+  height: 15px;
+  background-color: #333;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.2s infinite ease-in-out both;
+          animation: sk-bouncedelay 1.2s infinite ease-in-out both;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+}
+
+@keyframes sk-bouncedelay {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+}
+
 @media (min-width: 768px) {
   .site-navigation {
     position: absolute;
@@ -316,8 +371,10 @@ button {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  opacity: 0;
+  opacity: 1;
   z-index: 500;
+  color: #303030;
+  border: solid 2px #303030;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
@@ -420,9 +477,8 @@ p {
   font-weight: 700;
 }
 
-.tight-width-whitespace {
-  max-width: 600px;
-  margin: auto auto auto auto;
+.tight-width-whitespace p {
+  line-height: 160%;
 }
 
 .h1 {
@@ -489,6 +545,11 @@ h4 {
   margin-top: 50px;
 }
 
+.bloc-lg .portfolio-row img {
+  width: 80%;
+  margin: auto;
+}
+
 .bgc-white {
   background-color: #fff;
 }
@@ -548,13 +609,12 @@ h4 {
   background-image: url(img/image-de-presentation-compressor.jpeg);
 }
 
-.bg-banniere img {
-  width: 20%;
-  margin: auto;
-}
-
 #form_1 button {
   border: solid 2px #303030;
+}
+
+footer {
+  background-color: #FF6F00 !important;
 }
 
 footer .social {
@@ -678,12 +738,9 @@ address {
   .bloc-lg {
     padding: 40px 0;
   }
-  .bloc-lg img {
-    width: 20%;
-    margin: auto;
-  }
   .bloc-lg .portfolio-row img {
     width: 60%;
+    margin: auto;
   }
   .bloc-md,
   .bloc-sm {
@@ -720,6 +777,9 @@ address {
   }
   .icon-lg {
     font-size: 50px !important;
+  }
+  header img {
+    width: 20%;
   }
 }
 /*# sourceMappingURL=style.css.map */
