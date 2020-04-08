@@ -425,6 +425,14 @@ a[data-lightbox]:hover img {
   align-items: center;
 }
 
+.modal-open img{
+  width: 450px;
+}
+
+.modal-dialog {
+  width: inherit;
+}
+
 .lightbox-caption {
   padding: 20px;
   color: #fff;
