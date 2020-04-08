@@ -72,6 +72,12 @@ header img {
   background-size: 280px 280px;
 }
 
+.header-contact {
+  background-color: #E5653C;
+  -webkit-filter: brightness(1.3);
+          filter: brightness(1.3);
+}
+
 .b-parallax {
   background-attachment: fixed;
 }
@@ -97,7 +103,7 @@ header img {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: #7f7f7f;
+  color: #fff;
   -webkit-transition: ease-in-out 250ms;
   transition: ease-in-out 250ms;
 }
@@ -115,7 +121,7 @@ header img {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-  color: red;
+  color: #919191;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -199,7 +205,9 @@ header img {
 .nav > li a:after {
   content: '';
   display: block;
-  border-bottom: 1px solid #000;
+  border-bottom: 2px solid #E5653C;
+  -webkit-filter: brightness(1.2);
+          filter: brightness(1.2);
   width: 0;
   position: relative;
   -webkit-transition: .7s ease-in-out;
@@ -222,6 +230,30 @@ header img {
 .navbar-toggle .icon-bar {
   background-color: rgba(0, 0, 0, 0.5);
   width: 26px;
+}
+
+footer {
+  background-color: #FF7043;
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
+  height: 150px;
+  line-height: 50px;
+}
+
+.text-footer {
+  color: white;
+}
+
+footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+footer .social:hover {
+  text-decoration: none;
 }
 
 .spinner {
@@ -374,7 +406,7 @@ button {
   opacity: 1;
   z-index: 500;
   color: #303030;
-  border: solid 2px #303030;
+  border: solid 2px #fff;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
@@ -450,7 +482,7 @@ label,
 p {
   font-family: helvetica;
   font-weight: 400;
-  color: #575757 !important;
+  color: #575757;
 }
 
 .container {
@@ -572,15 +604,15 @@ h4 {
   display: inline-block;
   background: #fff;
   color: #303030 !important;
-  -webkit-box-shadow: inset 0 0 0 0 #31302b;
-          box-shadow: inset 0 0 0 0 #31302b;
+  -webkit-box-shadow: inset 0 0 0 0 #E5653C;
+          box-shadow: inset 0 0 0 0 #E5653C;
   -webkit-transition: ease-in-out 1s;
   transition: ease-in-out 1s;
 }
 
 .btn-atomic-tangerine:hover {
-  -webkit-box-shadow: inset 0 0 0 100px #31302b;
-          box-shadow: inset 0 0 0 100px #31302b;
+  -webkit-box-shadow: inset 0 0 0 100px #E5653C;
+          box-shadow: inset 0 0 0 100px #E5653C;
   color: #fff !important;
 }
 
@@ -617,23 +649,7 @@ h4 {
 }
 
 #form_1 button {
-  border: solid 2px #303030;
-}
-
-footer {
-  background-color: #FF6F00 !important;
-}
-
-footer .social {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-}
-
-footer .social:hover {
-  text-decoration: none;
+  border: solid 2px #E5653C;
 }
 
 address {

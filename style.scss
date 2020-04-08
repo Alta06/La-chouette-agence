@@ -1,6 +1,7 @@
+
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0 ;
+  padding: 0 ;
   background: #fff;
   overflow-x: hidden;
 }
@@ -70,6 +71,11 @@ header img {
   background-size: 280px 280px
 }
 
+.header-contact {
+  background-color: #E5653C;
+  filter: brightness(1.3);
+}
+
 .b-parallax {
   background-attachment: fixed
 }
@@ -95,7 +101,7 @@ header img {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: #7f7f7f;
+  color: #fff;
   transition: ease-in-out 250ms
 }
 
@@ -112,7 +118,7 @@ header img {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-  color: red
+  color: rgb(145, 145, 145)
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -196,14 +202,15 @@ header img {
 .nav>li a:after {
   content: '';
   display: block;
-  border-bottom: 1px solid #000;
+  border-bottom: 2px solid #E5653C;
+  filter: brightness(1.2);
   width: 0;
   position: relative;
   transition: .7s ease-in-out
 }
 
 .nav>li a:hover:after {
-  width: 100%
+  width: 100%;
 }
 
 .navbar-toggle {
@@ -218,6 +225,27 @@ header img {
 .navbar-toggle .icon-bar {
   background-color: rgba(0, 0, 0, .5);
   width: 26px
+}
+
+footer {
+  background-color: #FF7043;
+  filter: brightness(.9);
+  height: 150px;
+  line-height: 50px;
+}
+
+.text-footer {
+  color: white;
+}
+
+footer .social {
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around
+}
+
+footer .social:hover {
+  text-decoration: none
 }
 
 .spinner {
@@ -356,7 +384,7 @@ button {
   opacity: 1;
   z-index: 500;
   color: #303030;
-  border: solid 2px #303030;
+  border: solid 2px #fff;
   transition: all .3s ease-in-out
 }
 
@@ -425,7 +453,7 @@ label,
 p {
   font-family: helvetica;
   font-weight: 400;
-  color: #575757 !important
+  color: #575757 
 }
 
 .container {
@@ -545,12 +573,12 @@ h4 {
   display: inline-block;
   background: #fff;
   color: #303030 !important;
-  box-shadow: inset 0 0 0 0 #31302b;
+  box-shadow: inset 0 0 0 0 #E5653C;
   transition: ease-in-out 1s
 }
 
 .btn-atomic-tangerine:hover {
-  box-shadow: inset 0 0 0 100px #31302b;
+  box-shadow: inset 0 0 0 100px #E5653C;
   color: #fff !important
 }
 
@@ -586,23 +614,10 @@ h4 {
 }
 
 #form_1 button {
-  border: solid 2px #303030
+  border: solid 2px #E5653C
 }
 
-footer {
-  background-color: #FF6F00 !important;
 
-}
-
-footer .social {
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around
-}
-
-footer .social:hover {
-  text-decoration: none
-}
 
 address {
   margin: 5% 0 0 0;
