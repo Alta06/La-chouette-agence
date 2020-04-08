@@ -1,8 +1,13 @@
+html {
+  min-height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
   background: #fff;
   overflow-x: hidden;
+  min-height: 100vh;
 }
 
 a,
@@ -108,20 +113,20 @@ header img {
   transition: ease-in-out 250ms;
 }
 
-.d-bloc .a-btn:hover,
-.d-bloc .navbar a:hover,
-.d-bloc .navbar-brand:hover,
-.d-bloc a .icon-lg:hover,
-.d-bloc a .icon-md:hover,
-.d-bloc a .icon-sm:hover,
-.d-bloc h1 a:hover,
-.d-bloc h2 a:hover,
-.d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
-.d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
-.d-bloc p a:hover {
-  color: #919191;
+.d-bloc a .fa-twitter:hover {
+  color: #0084ff;
+}
+
+.d-bloc a .fa-facebook:hover {
+  color: #4267B2;
+}
+
+.d-bloc a .fa-dribbble:hover {
+  color: #b4006f;
+}
+
+.d-bloc a .fa-instagram:hover {
+  color: #c300ff;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -254,6 +259,13 @@ footer .social {
 
 footer .social:hover {
   text-decoration: none;
+}
+
+.icon-md {
+  width: 50px;
+  border: 2px solid white;
+  border-radius: 35%;
+  padding: 5px;
 }
 
 .spinner {
@@ -634,7 +646,7 @@ h4 {
 }
 
 .bg-banniere {
-  background-image: url(img/la-chouette-agence-banniere-compressor.jpg);
+  background-image: url(img/la-chouette-agence-banniere-compressor.webp);
 }
 
 .bg-bureau {
@@ -646,7 +658,7 @@ h4 {
 }
 
 .bg-presentation {
-  background-image: url(img/bureauPresentation.jpeg);
+  background-image: url(img/bureauPresentation.webp);
 }
 
 .black-background {
