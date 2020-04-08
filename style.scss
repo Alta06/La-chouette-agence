@@ -576,7 +576,13 @@ h4 {
 }
 
 .bg-presentation {
-  background-image: url(img/image-de-presentation-compressor.jpeg)
+  background-image: url(img/bureauPresentation.jpeg)
+}
+
+.black-background {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px 40px 40px 40px;
+  filter: opacity(0.9);
 }
 
 #form_1 button {
