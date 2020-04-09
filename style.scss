@@ -8,6 +8,8 @@ body {
   background: #fff;
   overflow-x: hidden;
   min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 a,
@@ -425,7 +427,6 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
   content: "+";
-  font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
   font-size: 32px;
   width: 50px;
   height: 50px;
@@ -484,7 +485,6 @@ h5,
 h6,
 label,
 p {
-  font-family: helvetica;
   font-weight: 400;
   color: #575757 
 }
