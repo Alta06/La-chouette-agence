@@ -222,13 +222,17 @@ header p {
   width: 100%;
 }
 
+.navbar-nav .open .dropdown-menu>li>a {
+  text-align: inherit;
+}
+
 .navbar-toggle {
   margin: 10px 10px 0 0;
   border: 0
 }
 
 .navbar-toggle:hover {
-  background: 0 0 !important
+  background: transparent !important
 }
 
 .navbar-toggle .icon-bar {
@@ -301,7 +305,7 @@ footer .social:hover {
   }
 }
 
-@media (min-width:768px) {
+@media (min-width:767px) {
   .site-navigation {
     position: absolute;
     top: 50%;
@@ -331,6 +335,10 @@ footer .social:hover {
     margin-right: 0;
     margin-top: 20px
   }
+  .nav-center.mini-nav .navbar-toggle {
+    float: none;
+    margin: 10px auto 0;
+}
 }
 
 .nav>li>.dropdown a {
@@ -669,7 +677,7 @@ address {
   width: 100%
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
   .page-container {
     overflow-x: hidden;
     position: relative
@@ -787,6 +795,14 @@ address {
 
   form {
     padding: 5px
+  }
+
+  .b-parallax {
+    background-attachment: scroll
+  }
+
+  .black-background {
+    padding: 0 10px ;
   }
 }
 
