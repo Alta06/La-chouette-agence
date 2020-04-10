@@ -15,7 +15,6 @@ a,
 button {
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
-  outline: 0 !important;
 }
 
 a:hover {
@@ -55,11 +54,6 @@ header p {
 
 .bloc-sm {
   padding: 20px 50px;
-}
-
-.bg-center,
-.bg-repeat {
-  background-size: auto !important;
 }
 
 .bg-repeat {
@@ -207,10 +201,9 @@ header p {
   font-size: 16px;
 }
 
-.nav > li a:focus,
 .nav > li a:hover {
   background: 0 0;
-  color: #000 !important;
+  color: black !important;
 }
 
 .nav > li a:after {
@@ -364,7 +357,6 @@ footer .social:hover {
 }
 
 .nav > li > .dropdown a {
-  background: 0 0 !important;
   display: block;
   padding: 14px 15px;
 }
@@ -384,14 +376,8 @@ footer .social:hover {
 }
 
 .btn-d,
-.btn-d:focus,
 .btn-d:hover {
-  color: #fff;
   background: rgba(0, 0, 0, 0.3);
-}
-
-button {
-  outline: 0 !important;
 }
 
 .btn-rd {
@@ -553,7 +539,7 @@ p {
 
 .cta-hero {
   margin-top: 22px;
-  color: #fff !important;
+  color: #fff;
   text-transform: uppercase;
   padding: 12px 28px 12px 28px;
   font-size: 16px;
@@ -574,7 +560,7 @@ h3 {
   font-size: 20px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #333 !important;
+  color: #333;
 }
 
 .med-width-whitespace {
@@ -584,21 +570,9 @@ h3 {
           box-shadow: 0 0 0 #000;
 }
 
-h1 {
-  color: #333 !important;
-}
-
-h4 {
-  color: #333 !important;
-}
-
 .icons {
   margin-bottom: 14px;
   margin-top: 24px;
-}
-
-.white {
-  color: #fff !important;
 }
 
 .portfolio-thumb {
@@ -628,7 +602,7 @@ h4 {
 }
 
 .tc-white {
-  color: #fff !important;
+  color: #fff;
   -webkit-filter: drop-shadow(2px 4px 6px #000);
           filter: drop-shadow(2px 4px 6px #000);
 }
@@ -636,7 +610,7 @@ h4 {
 .btn-atomic-tangerine {
   display: inline-block;
   background: #fff;
-  color: #303030 !important;
+  color: #303030;
   -webkit-box-shadow: inset 0 0 0 0 #E5653C;
           box-shadow: inset 0 0 0 0 #E5653C;
   -webkit-transition: ease-in-out 1s;
@@ -646,12 +620,12 @@ h4 {
 .btn-atomic-tangerine:hover {
   -webkit-box-shadow: inset 0 0 0 100px #E5653C;
           box-shadow: inset 0 0 0 100px #E5653C;
-  color: #fff !important;
+  color: #fff;
 }
 
 .icon-dark-slate-blue {
-  color: #364577 !important;
-  border-color: #364577 !important;
+  color: #364577;
+  border-color: #364577;
 }
 
 .bg-lines-h2-bg {
@@ -724,8 +698,8 @@ address {
   h5,
   h6,
   p {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   h2 {
     font-size: 22px;
@@ -734,7 +708,7 @@ address {
   .navbar .nav {
     padding-top: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
-    float: none !important;
+    float: none;
   }
   .navbar.row {
     margin-left: 0;
