@@ -8,6 +8,7 @@
 	<link rel="shortcut icon" type="image/png" href="favicon.png">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.Cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
 
 	<title>Contact | La chouette agence | Web design Lyon </title>
@@ -107,30 +108,51 @@
 					<div class="col-lg-12 text-center">
 						<address>
 							<script type="application/ld+json">
-                                {
-                                    "@context": "http://schema.org",
-                                    "@id": "https://alta06.github.io",
-                                    "@type": "LocalBusiness",
-                                    "geo": {
-                                        "@type": "GeoCoordinates",
-                                        "latitude": "45.7692756652832",
-                                        "longitude": "4.830631256103516"
-                                    },
-                                    "image": "/img/logo.png",
-                                    "name": "La chouette agence",
-                                    "description": "La chouette agence est agence de web design basée à Lyon, qui aide les entreprise à devenir attractives et visibles sur internet.",
-                                    "openingHours": "Mo,Tu,We,Th,Fr 09:00-17:00",
-                                    "telephone": "+18005551234",
-                                    "address": {
-                                        "@type": "PostalAddress",
-                                        "addressLocality": "Lyon",
-                                        "addressRegion": "",
-                                        "postalCode": "69001",
-                                        "streetAddress": "2 place Sathonay"
-                                      }
-                                }
-								</script>
-								
+								"@context": "http://schema.org",
+								"@id": "https://alta06.github.io",
+								"@type": "LocalBusiness",
+								"geo": {
+									"@type": "GeoCoordinates",
+									"latitude": "45.7692756652832",
+									"longitude": "4.830631256103516"
+								},
+								"image": "/img/logo.png",
+								"name": "La chouette agence",
+								"description":
+								"La chouette agence est agence de web design basée à Lyon, qui aide les entreprise à devenir attractives et visibles sur internet.",
+								"openingHours": "Mo,Tu,We,Th,Fr 09:00-17:00",
+								"telephone": "+18005551234",
+								"address": {
+									"@type": "PostalAddress",
+									"addressLocality": "Lyon",
+									"addressRegion": "",
+									"postalCode": "69001",
+									"streetAddress": "2 place Sathonay"
+								}
+								"openingHoursSpecification": [{
+										"@type": "OpeningHoursSpecification",
+										"dayOfWeek": [
+											"Monday",
+											"Tuesday",
+											"Wednesday",
+											"Thursday",
+											"Friday"
+										],
+										"opens": "09:00",
+										"closes": "21:00"
+									},
+									{
+										"@type": "OpeningHoursSpecification",
+										"dayOfWeek": [
+											"Saturday",
+											"Sunday"
+										],
+										"opens": "10:00",
+										"closes": "23:00"
+									}
+								]
+							</script>
+
 							<a href="mailto:">contact@lachouetteagence.com</a><br><a
 								href="https://goo.gl/maps/PCHg5h8bxMTrNAcN9">2 place Sathonay 69001 Lyon</a><br>Ouvert
 							de 9h à 18h, du lundi
@@ -159,23 +181,25 @@
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
 								<div class="text-center ">
-									<a class="social" href="index.html"><span
+									<a class="social twitter" href="index.html"><span
 											class="fa fa-twitter icon-md btn"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+									<a class="social facebook" href="index.html"><span
+											class="fa fa-facebook icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+									<a class="social dribbble" href="index.html"><span
+											class="fa fa-dribbble icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span
+									<a class="social instagram" href="index.html"><span
 											class="fa fa-instagram icon-md"></span></a>
 								</div>
 							</div>
@@ -192,13 +216,13 @@
 
 
 	<script src="./js/jquery-2.1.0.js"></script>
-	<script defer src="./js/bootstrap.js" ></script>
+	<script defer src="./js/bootstrap.js"></script>
 	<script src="js/formHandler.js"></script>
-	<script defer src="./js/lazysizes.min.js" ></script>
-	<script defer src="./js/blocs.js" ></script>
+	<script defer src="./js/lazysizes.min.js"></script>
+	<script defer src="./js/blocs.js"></script>
 	<script src="./js/jquery.touchSwipe.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
-	<script defer src="./js/lazysizes.min.js" ></script>
+	<script defer src="./js/lazysizes.min.js"></script>
 	<script defer src="js/gmaps.js"></script>
 
 
